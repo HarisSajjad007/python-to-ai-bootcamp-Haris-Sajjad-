@@ -1,56 +1,86 @@
-# print("hello world!")
-# # print(var)
+print("Hello, GDG WAH!!!")
+print("My name is Haris sajjad")
 
-# # comments
+name = "Haris Sajjad"
+Print("Hello my name is:",name)
 
-# # print("akif 1")
-# # print("akif 1")
-# # print("akif 1")
+Age = 20
+Cgpa = 3.59
+is_student = True
+Print("Name:",name," ","Age:",Age," ","cgpa:",Cgpa," ",Student_status:",is_student)
+Print(type(name))
+print(type(Age))
 
-# # int var = 1;
-# # var = "akif" // assignment operator 
-
-# # == //comparison operator
-# # no = 1
-# # dec = 1.5
-
-# VAR = ".."
-
-# # print(type(no))
-
-# # no = float(input("enter a no :")) # string
-# # print(no)
-# # print(type(no))
+num = int(input("Enter a number:"))
+print(num)
+print(type(num))
 
 # # += // pre 
 # # =+ // post 
 
-# # conditional statements
+# Conditional Statements:
+# (positive or negative num):
+num = int(input("Enter a value: "))
+if num > 0:
+    print("positive")
+elif num < 0:
+    print("negitive number")
+else:
+    print("the number is ZERO!")
 
-# # num = int(input("enter a value: "))
+# (Even or Odd)
+num1 = int(input("Enter a number:"))
+if num1 % 2 == 0:
+    print("The number is even")
+else num1 % 2 == 1:
+    print ("The number is odd")
 
-# # # -2, -1, 0, 1, 2
-# # if num > 0:
-# #     print("positive")
-# # elif num < 0:
-# #     print("negitive number")
-# # else:
-# #     print("the number is ZERO!")
-    
+# (ID card)
+num2 = int(input("Enter your Age"))
+if num2 < 0 or num2 > 150:
+    print("Invalid age")
+elif num2 >= 18 and num2 <= 150:
+    print("Can get ID card")
+else:
+    print("no")
     
 # for i in range(1,6,2):
 #     print(i)
-# count = 1     0   =  0    + 1 => 0 = 1
-# cont += 1 , count = count + 1
 
-# left (variable --> count) = right (value), 1 
-# count = 1
-
-# name = "akif"
-
-for number in range(1,8):
-    if number == 2:
+for number in range(1,10):
+    if number == 3 or number == 6:
         continue
-    if number == 5:
+    if number == 9:
         break
     print(number)
+
+# (Even or odd)
+for number in range(1,50):
+    if number % 2 == 0:
+        print("Number is even")
+    elif number % 2 == 1:
+        print("Number is odd")
+    else:
+        print("Invalid number")
+
+# (pass or fail)
+for number1 in range (1,5):
+    number2 = float(input("Enter a number"))
+    if number2 >= 50:
+        print("Passed")
+    else:
+        print("Failed")
+
+# is divisible by 2?
+num3 = int(input("Enter a number:"))
+while num3 % 2 == 0:
+    print("The number is divisible by 2")
+    num3 = int(input("Enter the number again:")
+print("The number is not divisible by 2 and is odd")
+
+
+
+
+
+
+
