@@ -4,12 +4,16 @@ def analyze(marks):
     
     if avg > 90:
         print("Excellent")
+    elif avg>80:
+        print("Better")
     elif avg>70:
-        print("Normal")
+        print("Good")
+    elif ave>60:
+        print("Better")
     elif avg > 50:
         print("Needs improvement")
     else:
-        print("Bad Result")
+        print("Poor Result")
         
     
     for i in range(0,4):
